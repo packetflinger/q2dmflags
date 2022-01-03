@@ -28,12 +28,15 @@ NoSpheres       = 1048576
 
 ## Compiling
 To build for your current system:
+
 `# go build q2dmflags.go` 
 
 To build for another OS or ARCH (ex: 32bit windows):
+
 `# GOOS=windows GOARCH=386 CGO_ENABLED=0 go build q2dmflags.go`
 
 ## Usage
 `# q2dmflags <integer bitmask>`
+
 `# q2dmflags <space separated list of flag names>`
 
